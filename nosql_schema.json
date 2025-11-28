@@ -1,0 +1,51 @@
+{
+  "Orders": {
+    "embed": [
+      "Lineitem"
+    ],
+    "reference": []
+  },
+  "Part": {
+    "embed": [],
+    "reference": [
+      "Lineitem"
+    ]
+  },
+  "PartSupp": {
+    "embed": [],
+    "reference": [
+      "Supplier",
+      "Part",
+      "Lineitem"
+    ]
+  },
+  "Supplier": {
+    "embed": [],
+    "reference": [
+      "PartSupp",
+      "Lineitem"
+    ]
+  },
+  "Customer": {
+    "embed": [
+      "Nation"
+    ],
+    "reference": [
+      "Orders"
+    ]
+  },
+  "Nation": {
+    "embed": [],
+    "reference": [
+      "Supplier",
+      "Customer"
+    ]
+  },
+  "Region": {
+    "embed": [],
+    "reference": [
+      "Nation",
+      "Supplier"
+    ]
+  }
+}

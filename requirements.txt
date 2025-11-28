@@ -1,0 +1,29 @@
+torch>=2.0.0
+torch-geometric>=2.3.0
+networkx>=2.8
+matplotlib>=3.7
+numpy>=1.23
+jupyterlab
+ipykernel
+
+# Deep Learning
+torch>=2.0.0
+torch-geometric>=2.3.0
+
+# Reinforcement Learning & Environments
+gymnasium>=0.29
+stable-baselines3>=2.2.1
+
+# Classical ML
+scikit-learn>=1.2
+pandas>=1.5
+
+# Data & Utilities
+numpy>=1.23
+jsonschema>=4.17  # in case you validate any json later
+
+# Graphs & Plotting
+networkx>=2.8
+matplotlib>=3.7
+jupyterlab
+ipykernel
