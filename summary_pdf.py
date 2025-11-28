@@ -15,11 +15,7 @@ from transformers import pipeline, AutoTokenizer
 
 # === CONFIG ===
 DB_CONFIG = {
-    "host": "34.47.253.106",
-    "dbname": "postgres",
-    "user": "postgres",
-    "password": "V924*j22_YEPK#U",
-    "port": "5432"
+    "host":"1234.45.67.89",
 }
 
 CHUNK_SIZE = 2000
@@ -132,7 +128,8 @@ def summarize_text(text):
 
 # === DB ===
 def get_db_connection():
-    return psycopg2.connect(**DB_CONFIG)
+    return  psycopg2.connect()
+# psycopg2.connect(**DB_CONFIG)
 
 def fetch_batch(cursor, batch_limit):
     cursor.execute(f"""
