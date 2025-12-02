@@ -235,7 +235,7 @@ Contributions are welcome! Please:
 - TPC-H Benchmark for providing the standard dataset
 - Stable Baselines3 for RL implementation
 - PyTorch Geometric for GNN framework
-- scikit-learn for ML utilities
+- scikit-learn for ML utilities,
 
 ---
 
